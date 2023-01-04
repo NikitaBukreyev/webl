@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+}
+header {
+    background: #eee;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.wrap-header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.burger-header{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.burger-header div{
+    height: 4px;
+    background:#333;
+    width: 30px;
+    border-radius: 5px;
+}
+.burger-header div+div{
+    margin-top: 5px;
+}
+.search-header{
+    height: 40px;
+    background:#fff;
+    padding: 5px;
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    border-radius: 5px;
+    align-items: center;
+}
+.search-header input{
+    height: 100%;
+    outline: none;
+    padding-left: 5px;
+    border:none;
+}
+footer{
+    color:#fff;
+    background:#333;
+}
+.wrap-footer{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrap-footer a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+.wrap-footer a:hover{
+    color:silver;
+}
+.footer-menu span+span{
+    margin-left: 25px;
+}
+.content{
+    width: 80%;
+    margin:80px auto;
+}
+.title{
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.p-title{
+    max-width: 700px;
+}
+.block-cards{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+}
+.card{
+    padding: 20px;
+    background-color:#eee;
+    border-radius:5px;
+}
+.card-img{
+    background-color: #333;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card h4{
+    font-size: 24px;
+    color:orange;
+}
+.card p{
+    font-size: 16px;
+}
+
+@media (max-width:900px){
+    .card-img{
+        height: auto;
+    }
+    .content, .container{
+        width: 95%;
+    }
+    .footer-menu{
+        display: none;
+    }
+    .block-cards{
+        grid-template-columns: 100%;
+        grid-row-gap: 20px;
+    }
+    .title{
+        font-size: 26px;
+    }
+    .wrap-header{
+        height: auto;
+        padding: 10px 0px;
+        flex-direction: column;
+    }
+    .p-title{
+        font-size: 16px;
+        text-align: justify;
+    }
+    p{
+        font-size: 14px;
+    }
+}
