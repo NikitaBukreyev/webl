@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.blue {
+    background-color: #add8e6;
+}
+
+.cream-shade {
+    background-color: #f9dec9;
+}
+
+.wrapper {
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+#header-div {
+    position: absolute;
+    min-height: 15vh;
+    width: 100%;
+}
+
+#one {
+    position: relative;
+}
+
+#x h3 {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    margin-top: 5vh;
+}
+
+#one p {
+    width: 50%;
+    float: right;
+    margin-right: 2rem;
+    margin-top: 5vh;
+}
+
+#middle-div {
+    position: absolute;
+    width: 100%;
+}
+
+#middle-content-div {
+    position: relative;
+    height: 70vh;
+    top: 15vh;
+    width: 100%;
+}
+
+#two {
+    position: absolute;
+    min-height: 100%;
+    width: 15%;
+}
+
+#two div {
+    margin-top: 25vh;
+    margin-left: 2rem;
+}
+
+#div-345 {
+    position: relative;
+    left: 15%;
+    height: 100%;
+}
+
+#three {
+    background-color: #D3FACA;
+    position: absolute;
+    height: 15%;
+    width: 85%;
+}
+
+#three p {
+    width: 400px;
+    margin-left: 60%;
+    margin-top: 5px;
+}
+
+#div-45 {
+    position: relative;
+    height: 100%;
+    top: 10%;
+}
+
+#four {
+    position: absolute;
+    top: 40%;
+}
+
+#four p {
+    width: 20%;
+    margin-left: 2rem;
+}
+
+#five {
+    position: relative;
+    height: 100%;
+    width: 30%;
+    left: 55%;
+    top: 5%;
+}
+
+#five p {
+    padding-left: 20px;
+    width: 40%;
+    padding-top: 25%;
+}
+
+
+#six {
+    position: absolute;
+    height: 15vh;
+    bottom: 0;
+    width: 100%;
+}
+
+#six div {
+    position: relative;
+}
+
+#six div p {
+    width: 50%;
+    margin-left: 2rem;
+    position: absolute;
+    top: 2rem;
+}
+
+#six div article {
+    float: right;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+
+article, h3 {
+    background-color: white;
+    padding: 5px 80px 5px 5px;
+    border: 1px solid black;
+}

@@ -1,0 +1,101 @@
+* {
+    /*background-color: lightpink;*/
+    margin: 0;
+}
+
+.blue {
+    background-color: #add8e6;
+}
+
+.cream-shade {
+    background-color: #f9dec9;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr .5fr 4fr 1fr;
+    grid-template-columns: 1.5fr 6fr 2.5fr;
+
+}
+
+header, footer {
+    grid-column-start: 1;
+    grid-column-end:4;
+    display: grid;
+    justify-items: start;
+    align-items: center;
+    grid-template-columns: 5fr 2fr;
+}
+
+
+header section {
+    margin-left: 2rem;
+}
+
+header  p {
+    margin-right: 2rem;
+}
+
+
+section, article {
+    background-color: white;
+    padding: 5px 80px 5px 5px;
+    border: 1px solid black;
+}
+
+
+#two {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    display: grid;
+    justify-items: start;
+    align-items: center;
+}
+
+#two div {
+    margin-left: 2rem;
+}
+
+#three {
+    grid-column-start: 2;
+    grid-column-end:4;
+    background-color: #D3FACA;
+    display: grid;
+    justify-items: end;
+    align-items: center;
+}
+
+#three p {
+    width: 600px;
+    margin-right: 3rem;
+}
+
+#four {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+}
+#four p {
+    width: 350px;
+    margin-left: 2rem;
+}
+
+aside {
+    display: grid;
+    justify-items: start;
+    align-items: center;
+}
+
+aside p {
+    width: 350px;
+    margin-left: 2rem;
+}
+
+header p, footer p {
+    width: 500px;
+}
+
+footer p {
+    margin-left: 2rem;
+}

@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.blue {
+    height: 20vh;
+    background-color: #add8e6;
+    width: 100%;
+}
+
+#middle-div {
+    height: 60vh;
+    display: flex;
+    width: 100%;
+}
+
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header p,header section,
+footer p, footer article {
+    margin: 0 5rem;
+}
+
+section, article {
+    background-color: white;
+    padding: 5px 80px 5px 5px;
+    border: 1px solid black;
+}
+
+
+header p, footer p {
+    width: 400px;
+}
+
+.cream-shade {
+    background-color: #f9dec9;
+}
+
+#two {
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+#two div {
+    margin-left: 2rem;
+}
+
+
+#inner-middle-right {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#inner-middle-four-five {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+#three {
+    background-color: #D3FACA;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#three p {
+    width: 40%;
+    margin-right: 2rem;
+}
+
+#four {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#four p {
+    width: 30%;
+    margin-left: 2rem;
+}
+
+aside {
+    width: 25%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+aside p {
+    width: 300px;
+    margin-left: 2rem;
+}
