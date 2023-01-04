@@ -1,0 +1,20 @@
+{
+	"canvWidthReduction": 10,
+	"canvHeightReduction": 50,
+	"rectSideLen": 10,
+	"stepIncrease": 10,
+
+	"bgPath": "media/bg.png",
+
+	"closeButtonText": "Close",
+	"startButtonText": "Start",
+	"stopButtonText": "Stop",
+	"reloadButtonText": "Reload",
+
+	"msgInit": "Lab #7 initialized",
+	"msgCanvasClosed": "Canvas closed",
+	"msgAniStart": "Animation started",
+	"msgBorder": "Rectangle reached border",
+	"msgAniStop": "Animation stopped",
+	"msgReload": "Canvas reloaded"
+}
