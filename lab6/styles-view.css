@@ -1,0 +1,16 @@
+#four {
+	grid-area: for;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2%;
+
+	display: grid;
+	grid-template-rows: 20px 1fr;
+	grid-template-areas:
+	"a"
+	"b";
+	width: auto;
+	height: auto;
+}
