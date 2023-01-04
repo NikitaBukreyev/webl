@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body, html{
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        header{
+            height: 10%;
+            background-color: rgb(17, 122, 141);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color:#ffff;
+        }
+        footer{
+            height: 10%;
+            background-color: rgb(17, 122, 141);
+            display: flex;
+            color:#ffff;
+            align-items: center;
+            justify-content: center;
+        }
+        section{
+            display: grid;
+            grid-template-columns: 20% 80%;
+            height: 80%;
+        }
+        .left-item{
+            background-color:blanchedalmond;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .content-top{
+            height: 10%;
+            background-color:rgb(145, 241, 174);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .wrap-blocks{
+            display: grid;
+            grid-template-columns: 60% 40%;
+            height: 90%;
+        }
+        .wrap-blocks div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .wrap-blocks div:nth-child(2){
+            background-color:blanchedalmond;
+        }
+    </style>
+    <header>1</header>
+    <section>
+        <div class="left-item">2</div>
+        <div class="content">
+            <div class="content-top">3</div>
+            <div class="wrap-blocks">
+                <div class="block">4</div>
+                <div class="block">5</div>
+            </div>
+        </div>
+    </section>
+    <footer>6</footer>
+</body>
+</html>
